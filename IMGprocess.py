@@ -3,7 +3,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
-desayuno = Image.open('yes\Y1.jpg','r')
+desayuno = Image.open('yes\Y8.jpg','r')
 
 def convolucion(img, kernel):
     kernelint = floor(kernel.shape[0]/2)
